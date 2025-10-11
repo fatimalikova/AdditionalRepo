@@ -1,0 +1,14 @@
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\bin\Debug\net8.0\AdditionalTasks.exe
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\bin\Debug\net8.0\AdditionalTasks.deps.json
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\bin\Debug\net8.0\AdditionalTasks.runtimeconfig.json
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\bin\Debug\net8.0\AdditionalTasks.dll
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\bin\Debug\net8.0\AdditionalTasks.pdb
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.AssemblyInfoInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.AssemblyInfo.cs
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.csproj.CoreCompileInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.dll
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\refint\AdditionalTasks.dll
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.pdb
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\AdditionalTasks.genruntimeconfig.cache
+C:\Users\fmeli\OneDrive\Desktop\Additional\AdditionalTasks\AdditionalTasks\obj\Debug\net8.0\ref\AdditionalTasks.dll
