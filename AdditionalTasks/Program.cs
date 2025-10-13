@@ -201,6 +201,45 @@
             //} 
             #endregion
 
+
+            //Console.WriteLine(CountofPrimeNums(3,40));
+            Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
+        }
+        private static int CountofPrimeNums(int n, int m)
+        {
+            int count = 0;
+            for (int i = n; i <= m; i++)
+            {
+                bool isPrime = true;
+                if (i < 2) continue;
+                for (int j = 2; j <= i / 2; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime) count++;
+            }
+            return count;
+
+        }
+
+        private static int[] OddNums(int[] arr, int num)
+        {
+            int[] result = new int[num];
+            int index = 0;
+            foreach (int number in arr)
+            {
+                if (number % 2 != 0)
+                {
+                    result[index] = number;
+                    index++;
+                    if (index == num) break;
+                }
+            }
+            return result;
         }
     }
 }
