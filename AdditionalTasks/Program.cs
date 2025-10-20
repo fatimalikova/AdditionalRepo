@@ -201,9 +201,9 @@
             //} 
             #endregion
 
-
+            isSimple(0);
             //Console.WriteLine(CountofPrimeNums(3,40));
-            Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
+            //Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
         }
         private static int CountofPrimeNums(int n, int m)
         {
@@ -241,5 +241,30 @@
             }
             return result;
         }
+
+        public static void isSimple(int num)
+        {
+            bool isSimple = false;
+            if (num < 2)
+            {
+                Console.WriteLine("this number neither simple nor complex");
+                return;
+            }
+            for(int i = 2; i < num / 2; i++)
+            {
+                if(num% i == 0)
+                {
+                    isSimple = true;
+                    break;
+                }
+            }
+
+            if (!isSimple)
+                Console.WriteLine("simple");
+            else Console.WriteLine("complex");
+        }
+            
+            
+        
     }
 }
