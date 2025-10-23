@@ -204,6 +204,10 @@
             isSimple(0);
             //Console.WriteLine(CountofPrimeNums(3,40));
             //Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
+
+            string str = "salam";
+            Console.WriteLine(str.ToUpper());
+            Console.WriteLine(str.Contains("Sa",StringComparison.OrdinalIgnoreCase));
         }
         private static int CountofPrimeNums(int n, int m)
         {
