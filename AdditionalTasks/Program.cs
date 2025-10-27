@@ -201,6 +201,33 @@
             //} 
             #endregion
 
+
+            Student student1 = new Student();
+            student1.name = "Fatima";
+            student1.adress = 1;
+            student1.age = 15;
+            student1.Phone = "333-56-3";
+            student1.GPA = 93.7;
+            student1.Study();
+
+            Student student2 = new Student();
+            student2.name = "Leila";
+            student2.adress = 2;
+            student2.age = 15;
+            student2.Phone = "23-422-3";
+            student2.GPA = 99.9;
+            student2.Study();
+         
+
+
+            Console.WriteLine(student1.name);
+            Console.WriteLine(student2.name);
+            Console.WriteLine(student1.adress);
+            Console.WriteLine(student2.age);
+            Console.WriteLine(student2.Phone);
+            Console.WriteLine(student2.GPA);
+
+
             isSimple(0);
             //Console.WriteLine(CountofPrimeNums(3,40));
             //Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
@@ -262,13 +289,29 @@
                     break;
                 }
             }
-
-            if (!isSimple)
-                Console.WriteLine("simple");
-            else Console.WriteLine("complex");
+            if (!isSimple)Console.WriteLine("simple");
+            else Console.WriteLine("complex"); 
         }
-            
-            
-        
+
     }
+
+
+    class Student
+    {
+        //Fields
+        public string name;
+        public int age;
+        public int adress;
+        public string Phone;
+        public double GPA;
+        
+
+        public void Study()
+        {
+            Console.WriteLine(GPA);
+        }
+    }
+    
+
+
 }

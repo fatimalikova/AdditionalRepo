@@ -14,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\Program.cs",
+              "RelativeDocumentMoniker": "AdditionalTasks\\Program.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\Program.cs",
+              "RelativeToolTip": "AdditionalTasks\\Program.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAiwOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T06:12:25.507Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -23,19 +36,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\Program.cs",
-              "RelativeDocumentMoniker": "AdditionalTasks\\Program.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\Program.cs*",
-              "RelativeToolTip": "AdditionalTasks\\Program.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwNEAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T06:12:25.507Z",
-              "EditorCaption": ""
             }
           ]
         }
