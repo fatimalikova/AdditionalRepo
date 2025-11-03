@@ -217,7 +217,7 @@
             student2.Phone = "23-422-3";
             student2.GPA = 99.9;
             student2.Study();
-         
+
 
 
             Console.WriteLine(student1.name);
@@ -227,6 +227,9 @@
             Console.WriteLine(student2.Phone);
             Console.WriteLine(student2.GPA);
 
+            Console.WriteLine("Sum:");
+            SumofArray(new int[] { 1, 2, 3, 4, 5 });
+            
 
             isSimple(0);
             //Console.WriteLine(CountofPrimeNums(3,40));
@@ -234,7 +237,9 @@
 
             string str = "salam";
             Console.WriteLine(str.ToUpper());
-            Console.WriteLine(str.Contains("Sa",StringComparison.OrdinalIgnoreCase));
+            Console.WriteLine(str.Contains("Sa", StringComparison.OrdinalIgnoreCase));
+
+
         }
         private static int CountofPrimeNums(int n, int m)
         {
@@ -281,37 +286,47 @@
                 Console.WriteLine("this number neither simple nor complex");
                 return;
             }
-            for(int i = 2; i < num / 2; i++)
+            for (int i = 2; i < num / 2; i++)
             {
-                if(num% i == 0)
+                if (num % i == 0)
                 {
                     isSimple = true;
                     break;
                 }
             }
-            if (!isSimple)Console.WriteLine("simple");
-            else Console.WriteLine("complex"); 
+            if (!isSimple) Console.WriteLine("simple");
+            else Console.WriteLine("complex");
         }
 
-    }
 
-
-    class Student
-    {
-        //Fields
-        public string name;
-        public int age;
-        public int adress;
-        public string Phone;
-        public double GPA;
-        
-
-        public void Study()
+        public static void SumofArray(int[] arr)
         {
-            Console.WriteLine(GPA);
+            int sum = 0;
+            foreach (int num in arr)
+            {
+                sum += num;
+            }
+            Console.WriteLine(sum);
         }
-    }
-    
 
+
+        class Student
+        {
+            //Fields
+            public string name;
+            public int age;
+            public int adress;
+            public string Phone;
+            public double GPA;
+
+
+            public void Study()
+            {
+                Console.WriteLine(GPA);
+            }
+        }
+
+
+    }
 
 }
