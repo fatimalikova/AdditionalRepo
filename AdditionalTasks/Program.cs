@@ -201,6 +201,13 @@
             //} 
             #endregion
 
+            Bird bird = new Bird();
+            bird.Fly();
+            bird.eat();
+            Dog dog = new Dog();
+            dog.MakeSound();
+
+
 
             Student student1 = new Student();
             student1.name = "Fatima";
@@ -329,4 +336,37 @@
 
     }
 
+    abstract class Animal
+    {
+        public abstract void MakeSound();
+        private void Sleep()
+        {
+            Console.WriteLine("Zzz...");
+        }
+    }
+
+    class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("Woof!");
+        }
+    }
+
+    interface IFlyable
+    {
+        void Fly();
+        void eat();
+    }
+    class Bird : IFlyable
+    {
+        public void Fly()
+        {
+            Console.WriteLine("The bird is flying.");
+        }
+        public void eat()
+        {
+            Console.WriteLine("The bird is eating.");
+        }
+    }
 }
