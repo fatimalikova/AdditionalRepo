@@ -308,9 +308,17 @@
             //}
 
             Console.WriteLine(Planets.Earth + " is planet of #" + (int)Planets.Earth + " and its radius is " + (int)RadiusOfPlanets.Earth + " km.");
-        }
+            Console.WriteLine("Volume of Earth: ");
+            Console.WriteLine(VolumeofPlanets(RadiusOfPlanets.Earth));
 
-        enum Planets
+        }
+        public static double VolumeofPlanets(RadiusOfPlanets radius)
+        {
+            double r = (int)radius;
+            double volume = (4.0 / 3.0) * Math.PI * Math.Pow(r, 3);
+            return volume;
+        }
+        public enum Planets
         {
             Mercury = 1,
             Venus = 2,
@@ -322,7 +330,7 @@
             Neptune = 8
         }
          
-        enum RadiusOfPlanets
+        public enum RadiusOfPlanets
         {
             Mercury = 2439,
             Venus = 6051,
