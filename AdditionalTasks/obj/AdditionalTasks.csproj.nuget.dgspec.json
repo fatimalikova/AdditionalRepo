@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj": {}
+    "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj": {
+    "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj",
+        "projectUniqueName": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj",
         "projectName": "AdditionalTasks",
-        "projectPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj",
+        "projectPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional\\AdditionalTasks\\AdditionalTasks\\AdditionalTasks.csproj",
         "packagesPath": "C:\\Users\\fmeli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Additional\\AdditionalTasks\\AdditionalTasks\\obj\\",
+        "outputPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional\\AdditionalTasks\\AdditionalTasks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -201,53 +201,125 @@
             //} 
             #endregion
 
-            Bird bird = new Bird();
-            bird.Fly();
-            bird.eat();
-            Dog dog = new Dog();
-            dog.MakeSound();
+            //Bird bird = new Bird();
+            //bird.Fly();
+            //bird.eat();
+            //Dog dog = new Dog();
+            //dog.MakeSound();
 
 
 
-            Student student1 = new Student();
-            student1.name = "Fatima";
-            student1.adress = 1;
-            student1.age = 15;
-            student1.Phone = "333-56-3";
-            student1.GPA = 93.7;
-            student1.Study();
+            //Student student1 = new Student();
+            //student1.name = "Fatima";
+            //student1.adress = 1;
+            //student1.age = 15;
+            //student1.Phone = "333-56-3";
+            //student1.GPA = 93.7;
+            //student1.Study();
 
-            Student student2 = new Student();
-            student2.name = "Leila";
-            student2.adress = 2;
-            student2.age = 15;
-            student2.Phone = "23-422-3";
-            student2.GPA = 99.9;
-            student2.Study();
-
-
-
-            Console.WriteLine(student1.name);
-            Console.WriteLine(student2.name);
-            Console.WriteLine(student1.adress);
-            Console.WriteLine(student2.age);
-            Console.WriteLine(student2.Phone);
-            Console.WriteLine(student2.GPA);
-
-            Console.WriteLine("Sum:");
-            SumofArray(new int[] { 1, 2, 3, 4, 5 });
-            
-
-            isSimple(0);
-            //Console.WriteLine(CountofPrimeNums(3,40));
-            //Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
-
-            string str = "salam";
-            Console.WriteLine(str.ToUpper());
-            Console.WriteLine(str.Contains("Sa", StringComparison.OrdinalIgnoreCase));
+            //Student student2 = new Student();
+            //student2.name = "Leila";
+            //student2.adress = 2;
+            //student2.age = 15;
+            //student2.Phone = "23-422-3";
+            //student2.GPA = 99.9;
+            //student2.Study();
 
 
+
+            //Console.WriteLine(student1.name);
+            //Console.WriteLine(student2.name);
+            //Console.WriteLine(student1.adress);
+            //Console.WriteLine(student2.age);
+            //Console.WriteLine(student2.Phone);
+            //Console.WriteLine(student2.GPA);
+
+            //Console.WriteLine("Sum:");
+            //SumofArray(new int[] { 1, 2, 3, 4, 5 });
+
+
+            //isSimple(0);
+            ////Console.WriteLine(CountofPrimeNums(3,40));
+            ////Console.WriteLine(OddNums(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 3));
+
+            //string str = "salam";
+            //Console.WriteLine(str.ToUpper());
+            //Console.WriteLine(str.Contains("Sa", StringComparison.OrdinalIgnoreCase));
+
+
+
+            //string[] fruits = { "apple", "banana", "cherry", "date", "elderberry" };
+            //int[] numbers = { 5, 2, 9, 1, 5, 6 };
+            //double[] decimals = { 3.14, 1.59, 2.65, 5.35 };
+
+            //DisplayArray(numbers);
+            //DisplayArray(fruits);
+            //DisplayArray(decimals);
+
+
+
+            //string[] colors = new string[3];
+            //colors[0] = "Red";
+            //colors[1] = "Green";
+            //colors[2] = "Blue";
+            //Array.Resize(ref colors, 4);
+            //colors[3] = "Yellow"; // This will throw an IndexOutOfRangeException
+
+            //foreach (string color in colors)
+            //{
+            //    Console.WriteLine(color);
+            //}
+
+            List<string> colors = new List<string>();
+            colors.Add("Black");
+            colors.Add("Red");
+            colors.Add("Green");
+            colors.Add("Blue");
+            colors.Add("Yellow");
+            colors.Add("Black");
+            //colors.Remove("Green");
+
+            //Console.WriteLine(colors.Count);
+            //Console.WriteLine(colors.IndexOf("Blue"));
+            //Console.WriteLine(colors.Contains("Blue"));
+            //Console.WriteLine(colors.LastIndexOf("Black"));
+
+            //colors.Insert(0, "Black");
+            //colors.RemoveAt(2);
+            //colors.Reverse();
+            //colors.Sort();
+            //colors.Clear();
+
+            //string[] colorsArray = colors.ToArray();
+
+            //foreach (string color in colors)
+            //{
+            //    Console.WriteLine(color);
+            //}
+
+            Car car = new Car();
+            Boat boat = new Boat();
+            Plane plane = new Plane();
+
+            Vehicles[] vehicles = { car, boat, plane };
+            foreach (Vehicles vehicle in vehicles)
+            {
+                vehicle.Start();
+            }
         }
+
+
+
+        public static void DisplayArray<T>(T[] item)
+        {
+            foreach (T i in item)
+            {
+                Console.WriteLine(i + " ");
+            }
+            Console.WriteLine();
+        }
+
+
         private static int CountofPrimeNums(int n, int m)
         {
             int count = 0;
@@ -367,6 +439,38 @@
         public void eat()
         {
             Console.WriteLine("The bird is eating.");
+        }
+    }
+
+    public class Vehicles
+    {
+        public virtual void Start()
+        {
+            Console.WriteLine("Vehicle started.");
+        }
+    }
+    public class Car : Vehicles
+    {
+        public override void Start()
+        {
+            Console.WriteLine("Car started with a roar!");
+        }
+    }
+
+
+    public class Boat : Vehicles
+    {
+        public override void Start()
+        {
+            Console.WriteLine("Boat started with a splash!");
+        }
+    }
+
+    public class Plane : Vehicles
+    {
+        public override void Start()
+        {
+            Console.WriteLine("Plane started with a roar and is taking off!");
         }
     }
 }
